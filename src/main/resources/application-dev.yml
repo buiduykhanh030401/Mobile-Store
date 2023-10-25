@@ -1,0 +1,33 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /r2s-mobile-store-api
+
+db:
+  port: 3306
+  name: r2s_mobile_store_db
+  endpoint: localhost
+  username: root
+  password: root
+
+spring:
+  datasource:
+    url: jdbc:mysql://${db.endpoint}:${db.port}/${db.name}
+    username: ${db.username}
+    password: ${db.password}
+
+# ADD 2023/10/05 KhanhBD START
+  mail:
+    host: smtp.gmail.com
+    username: mobilestorer2s@gmail.com
+    password: qafj jiyp kaof fyde
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: "*"
+# ADD 2023/10/05 KhanhBD END
