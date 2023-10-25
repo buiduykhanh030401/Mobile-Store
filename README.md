@@ -23,16 +23,6 @@ This README provides an overview of the Rating and Reply System, detailing the e
 - Represents a product that users can rate and review.
 - Contains product information.
 
-### 3. Rating
-- Represents a user's rating and review for a specific product.
-- Contains user-specific rating and review.
-- Automatically records the creation and update timestamps.
-- Has a one-to-many relationship with ReplyRating entities.
-
-### 4. ReplyRating
-- Represents a user's reply to a specific rating.
-- Contains reply content and user information.
-
 ## Relationships
 
 - A User can create multiple Ratings.
@@ -51,12 +41,6 @@ This README provides an overview of the Rating and Reply System, detailing the e
 
 - `GET /products`: Retrieve a list of products.
 - `GET /products/{id}`: Retrieve product details by ID.
-
-### Rating
-
-- `GET /ratings/product/{productId}`: Get all ratings for a specific product.
-- `POST /ratings/product/{productId}/user/{userId}`: Add a new rating and review for a product.
-- `POST /ratings/reply/{ratingId}`: Add a reply to a specific rating.
 
 ### How to Use
 
