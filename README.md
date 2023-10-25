@@ -67,11 +67,3 @@ This README provides an overview of the Rating and Reply System, detailing the e
 ### Contributing
 
 Feel free to contribute to this project by opening issues, providing feedback, or submitting pull requests. We welcome your input and suggestions.
-
-### License
-
-This project is licensed under the [Your License] License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides an overview of the Rating and Reply System, including entities, relationships, API endpoints, and basic instructions on how to use the system. You can customize it further to include installation instructions, deployment details, and other relevant information about your project.
